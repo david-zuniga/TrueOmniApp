@@ -1,0 +1,39 @@
+
+.flexRow 
+    width: 700px
+    height: 1000px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    overflow: auto
+    overflow-x: hidden
+
+.flexColumn 
+    width: 1000px
+    height: 700px
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    align-items: space-between
+    overflow: auto
+    overflow-y: hidden
+
+.flexRow, .flexColumn 
+    .item-container
+        width: 200px
+        height: 200px
+        border: 1px solid light-gray
+        margin: 13px
+        position: relative
+
+        div
+            position: absolute
+            top: 10px
+            margin: auto
+            font-size: 24px
+            color: white
+            vertical-align: top
+        
+        img 
+            width: 200px
+                
